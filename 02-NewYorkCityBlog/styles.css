@@ -1,0 +1,51 @@
+/* resets the default margin and padding values of all HTML elements */
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+/* robust universal border-box fix */
+:root {
+  box-sizing: border-box;
+}
+
+*,
+::before,
+::after {
+  box-sizing: inherit;
+}
+
+/* to convert a third-party component into a content-box when necessary by targeting its top-level container */
+.third-party-component {
+  box-sizing: content-box;
+}
+
+nav {
+  border: 1px solid black;
+  margin: 10px;
+  background-color: bisque;
+}
+
+nav ul {
+  list-style-type: none;
+  overflow: hidden;
+  background-color: #010e80;
+  display: table;
+  width: 100%;
+}
+
+nav li {
+  display: table-cell;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 30px 30px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #111;
+}
