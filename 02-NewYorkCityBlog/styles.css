@@ -76,8 +76,6 @@ h1, p .blog {
 
 .statue {
   border: 1px solid rebeccapurple;
-  display: flex;
-  flex-direction: column;
 }
 
 .image {
