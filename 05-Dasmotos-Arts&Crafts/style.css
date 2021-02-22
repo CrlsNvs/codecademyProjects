@@ -1,0 +1,47 @@
+:root {
+  box-sizing: border-box;
+  font-size: 0.75em;
+}
+
+@media (min-width: 800px) {
+  :root {
+    font-size: 0.875em; /* Applies only to screens 800 px and wider, overriding the original value */
+  }
+}
+@media (min-width: 1200px) {
+  :root {
+    font-size: 1em; 
+  }
+}
+
+body {
+  font-family: Helvetica, sans-serif;
+}
+
+header {
+  background-image: url(images/pattern.jpg);
+  text-align: center;
+  font-size: 50px;
+  color: khaki;
+}
+
+h2 {
+  font-size: 32px;
+  color: white;
+}
+.brushesHeading {
+  background-color: #52e0ca;
+}
+
+.framesHeading {
+  background-color: #f08080;
+}
+
+.paintHeading {
+  background-color: #87ceeb;
+}
+
+.price {
+  color: blue;
+  font-weight: bold;
+}
