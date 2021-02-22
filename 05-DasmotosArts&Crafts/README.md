@@ -1,6 +1,8 @@
 # Developing with CSS
 
-## Added to Codecademy's original project:
+## Project: Dasmoto's Arts & Crafts
+
+### Added to Codecademy's original project:
 
 - Responsive font-size CSS rulesets
 

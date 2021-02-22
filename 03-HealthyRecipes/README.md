@@ -1,2 +1,2 @@
-# Selectors and Visual Rules
-This was added on GitHub's website
+# Learn CSS: Selectors and Visual Rules
+## Project: Healthy Recipes
