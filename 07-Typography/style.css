@@ -1,0 +1,103 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+/* Responsive base font-size */
+/* Applies to all screens, but it is overriden for larger screens */
+:root {
+  font-size: 0.75em;
+}
+
+/* Applies only to screens 800 px and wider, overriding the original value */
+@media (min-width: 800px) {
+  :root {
+    font-size: 0.875em; /* Applies only to screens 800 px and wider, overriding the original value */
+  }
+}
+/* Applies only to screens 1,200 px and larger, overriding both values */
+@media (min-width: 1200px) {
+  :root {
+    font-size: 1em; /* Applies only to screens 1200 px and larger, overriding the original value */
+  }
+}
+
+/* Applies border box sizing to the root element */
+:root {
+  box-sizing: border-box;
+}
+/* Tells all other elements and pseudo-elements to inherit their box sizing */
+*,
+::before,
+::after {
+  box-sizing: inherit;
+}
+
+body {
+  background-color: #fee7da;
+}
+
+.header {
+  box-sizing: content-box;
+  border: 1px solid red;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 4.44rem;
+  padding: 0 12%;
+  background-color: white;
+  box-shadow: 0 2px 6px 0 rgba(0, 0, 0, 0.05);
+  font-family: Verdana, sans-serif;
+  /* font-size: .77rem; */
+  font-weight: bold;
+}
+.logo {
+  color: #ffb78c;
+}
+
+ul li {
+  display: inline;
+  list-style: none;
+}
+
+.header li a {
+  text-decoration: none;
+  color: #4a4a4a;
+}
+
+.banner {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 50rem;
+  background: url("https://content.codecademy.com/courses/freelance-1/unit-6/project-morocco/banner.jpg")
+    center center no-repeat;
+  background-size: auto;
+  background-size: cover;
+  color: #ffb78c;
+}
+
+.banner h2 {
+  font-size: 2em;
+}
+
+.banner h1 {
+  font-size: 12em;
+}
+
+.journal {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.first {
+  border: 1px solid blue;
+}
+
+footer {
+    border: 2px solid red;
+    
+}
